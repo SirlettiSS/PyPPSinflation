@@ -1,19 +1,38 @@
-# PyPPSinflation
+# PyPPSinflation and PPS_orders Notebooks
 
- Python package to compute numerically and analytically scalar and tensor primordial power spectra (PPS) for single-field slow-roll inflationary models up to the third order. 
+**PyPPSinflation** is a Python package designed to numerically and analytically compute the scalar and tensor primordial power spectra (PPS) for single-field slow-roll inflationary models, up to the third order. 
 
+The package is structured into Jupyter Notebooks and Wolfram Mathematica notebooks, organized as follows:
 
- PyPPSinflation is a simply and quick to use script devided into Jupyter Notebooks and Wolfram MAthematica notebooks. In particular it is devided as follow: 
+### Notebook Overview
 
-1) Notebook 1 - Numerical PPS: in this notebook we solve the dynamical equations of the scalar field $\phi$, then, by setting the model of inflation with the potential $V(phi)$ we solve the scalar and tensor Mukhanov and Sasaki equation for the perturbations $\delta \phi$, which gives back the scalar and tensor primordial power spectra (PPS). From the PPS we compute numerically the spectral indices, their runnings, and the runnings of the runnings.
+1. **Notebook 1 - Numerical PPS**: This notebook solves the dynamical equations for the scalar field $\phi$. By specifying an inflationary model with the potential $V(\phi)$, it then solves the Mukhanov-Sasaki equations for scalar and tensor perturbations $\delta \phi$, yielding the scalar and tensor PPS. From these, we numerically compute the spectral indices, their runnings, and the runnings of the runnings.
 
-2) Notebook 2 - Quantities with respect to the number of $e$-fold $N$: this is a Wolfram Mathematica notebook where it is possibile to compute analytically all the quantities we need to compute the PPS analytically.
+2. **Notebook 2 - Quantities with respect to the number of $e$-folds $N$**: This Wolfram Mathematica notebook analytically computes all necessary quantities for deriving the PPS analytically.
 
-3) Notebook 3 - Analytical PPS: here we compute the analytical PPS at first, second and third order in $\ln\left(\frac{k}{k_*}\right)$. We compute analytically the spectral indices, their runnings, and the runnings of the runnings.
+3. **Notebook 3 - Analytical PPS**: This notebook computes the analytical PPS at first, second, and third orders in $\ln\left(\frac{k}{k_*}\right)$. It includes analytical calculations of the spectral indices, their runnings, and the runnings of the runnings.
 
-4) Notebook 4 - Analytical vs numerical PPS: here we make the comparisons among the analytical PPS up to the third order and the numerical PPS obtained in the first notebook. We also compare the spectral indices, their runnings, and the runnings of the runnings.
+4. **Notebook 4 - Analytical vs. Numerical PPS**: Here, we compare the analytical PPS up to the third order with the numerical PPS obtained in Notebook 1. We also compare the spectral indices, their runnings, and the runnings of the runnings.
 
-5) Notebook 5 - Plots: here we just make the notebook 4 shorter and we create the useful plots for the comparisons.
+5. **Notebook 5 - Plots**: This notebook provides a streamlined version of Notebook 4, focusing on generating the key plots needed for comparison.
 
+### Model Used
+
+In this generic script, we use the Kachru-Kallosh-Linde-Trivedi (KKLT) model of inflation. For details, refer to: 
+- S. Kachru, R. Kallosh, A. Linde, and S.P. Trivedi, "de Sitter vacua in string theory," *Phys. Rev. D* 68 (2003) 046005 [hep-th/0301240].
+
+### Additional Resources: PPS_orders Folder
+
+The repository includes a folder named **PPS_orders**, which contains two sub-folders: **Notebooks_2nd_order** and **Notebooks_3rd_order**. These folders house Wolfram Mathematica notebooks that detail the computations leading to the analytical forms of the PPS presented in the PyPPSinflation reference paper. This includes tabulated integrals, their results, and their super-Hubble limits. Please refer to the reference paper for guidance on these notebooks.
+
+### License and Contribution
+
+PyPPSinflation and the PPS_orders notebooks are free to use. If you have any questions or are interested in contributing, please do not hesitate to contact the authors.
+
+### Reference paper and citations
+
+If you use this code in your research, please cite the following associated reference paper:
+
+[PAPER_TO_CITE]
 
 
