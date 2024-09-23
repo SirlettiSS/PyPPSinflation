@@ -33,6 +33,16 @@ PyPPSinflation and the PPS_orders notebooks are free to use. If you have any que
 
 If you use this code in your research, please cite the following associated reference paper:
 
-[PAPER_TO_CITE]
+M. Ballardini, A. Davoli, S.S. Sirletti - Third-order corrections to the slow-roll expansion: calculation and constraints with Planck, ACT, SPT, and BICEP/Keck:
+
+@article{Ballardini:2024irx,
+    author = "Ballardini, Mario and Davoli, Alessandro and Sirletti, Salvatore Samuele",
+    title = "{Third-order corrections to the slow-roll expansion: calculation and constraints with Planck, ACT, SPT, and BICEP/Keck}",
+    eprint = "2408.05210",
+    archivePrefix = "arXiv",
+    primaryClass = "astro-ph.CO",
+    month = "8",
+    year = "2024"
+}
 
 
