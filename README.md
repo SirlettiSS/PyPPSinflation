@@ -35,17 +35,16 @@ If you use this code in your research, please cite the following associated refe
 
 M. Ballardini, A. Davoli, S.S. Sirletti - Third-order corrections to the slow-roll expansion: calculation and constraints with Planck, ACT, SPT, and BICEP/Keck:
 
-@article{BALLARDINI2025101813,
-title = {Third-order corrections to the slow-roll expansion: Calculation and constraints with Planck, ACT, SPT, and BICEP/Keck},
-journal = {Physics of the Dark Universe},
-volume = {47},
-pages = {101813},
-year = {2025},
-issn = {2212-6864},
-doi = {https://doi.org/10.1016/j.dark.2025.101813},
-url = {https://www.sciencedirect.com/science/article/pii/S2212686425000081},
-author = {Mario Ballardini and Alessandro Davoli and Salvatore Samuele Sirletti},
-keywords = {Keyword one, Keyword two},
-abstract = {We investigate the primordial power spectra (PPS) of scalar and tensor perturbations, derived through the slow-roll approximation. By solving the Mukhanov-Sasaki equation and the tensor perturbation equation with Green’s function techniques, we extend the PPS calculations to third-order corrections, providing a comprehensive expansion in terms of slow-roll parameters with an independent approach to the solution of the integrals compared to the one previously presented in the literature. We investigate the accuracy of the analytic predictions starting from first-order corrections up to third-order ones with the numerical solutions of the perturbation equations for a selection of single-field slow-roll inflationary models. We derive the constraints on the Hubble flow functions ϵi from Planck, ACT, SPT, and BICEP/Keck data. We find an upper bound ϵ1≲0.002 at 95% CL dominated by BICEP/Keck data and robust to all the different combination of datasets. We derive the constraint ϵ2≃0.031±0.004 at 68% confidence level (CL) from the combination of Planck data and late-time probes such as baryon acoustic oscillations, redshift space distortions, and supernovae data at first order in the slow-roll expansion. The uncertainty on ϵ2 gets larger including second- and third-order corrections, allowing for a non-vanishing running and running of the running respectively, leading to ϵ2≃0.034±0.007 at 68% CL. We find ϵ3≃0.1±0.4 at 95% CL both at second and at third order in the slow-roll expansion of the spectra. ϵ4 remains always unconstrained. The combination of Planck and SPT data, compatible among each others, leads to slightly tighter constraints on ϵ2 and ϵ3. On the contrary, the combination of Planck data with ACT measurements, which point to higher values of the scalar spectral index compared to Planck findings, leads to shifts in the means and maximum likelihood values for ϵ2 and ϵ3. We discuss the results obtained for different dataset combinations and different multipole cuts.}
+@article{Ballardini:2024irx,
+    author = "Ballardini, Mario and Davoli, Alessandro and Sirletti, Salvatore Samuele",
+    title = "{Third-order corrections to the slow-roll expansion: Calculation and constraints with Planck, ACT, SPT, and BICEP/Keck}",
+    eprint = "2408.05210",
+    archivePrefix = "arXiv",
+    primaryClass = "astro-ph.CO",
+    doi = "10.1016/j.dark.2025.101813",
+    journal = "Phys. Dark Univ.",
+    volume = "47",
+    pages = "101813",
+    year = "2025"
 }
 
